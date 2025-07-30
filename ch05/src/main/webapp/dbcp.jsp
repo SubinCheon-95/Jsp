@@ -1,0 +1,19 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<!-- 
+			날짜 : 2025/07/30
+			이름 : 천수빈
+			내용 : DBCP 실습하기
+		-->
+	</head>
+	<body>
+		<h3>DBCP 실습</h3>
+		
+		<a href="./customer/list.jsp">USER1 CRUD 실습</a>
+			
+	</body>
+</html>
