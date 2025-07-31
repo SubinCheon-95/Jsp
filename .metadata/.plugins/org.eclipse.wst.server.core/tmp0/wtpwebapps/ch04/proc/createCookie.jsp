@@ -30,5 +30,4 @@
 		
 		response.sendRedirect("../cookie.jsp");
 	}
-
 %>

@@ -18,6 +18,5 @@
 			<input type="password" name="pw" placeholder="비밀번호 입력"/><br/>
 			<input type="submit" value="로그인" />
 		</form>
-	
 	</body>
 </html>
