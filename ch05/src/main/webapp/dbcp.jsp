@@ -3,7 +3,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Insert title here</title>
+		<title>dbcp</title>
 		<!-- 
 			날짜 : 2025/07/30
 			이름 : 천수빈
@@ -13,7 +13,7 @@
 	<body>
 		<h3>DBCP 실습</h3>
 		
-		<a href="./customer/list.jsp">USER1 CRUD 실습</a>
+		<a href="./customer/list.jsp">CUSTOMER CRUD 실습</a>
 			
 	</body>
 </html>

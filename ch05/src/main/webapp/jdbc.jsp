@@ -3,7 +3,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Insert title here</title>
+		<title>jdbc</title>
 		<!-- 
 			날짜 : 2025/07/29
 			이름 : 천수빈
