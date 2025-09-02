@@ -4,6 +4,25 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>user1::modify</title>
+		
+		<script>
+			document.addEventListener('DOMContentLoaded', function(){
+				
+				// 파라미터(쿼리스트링) 파싱
+				const params = location.href.split('?')[1];
+				console.log('params : ' + params);
+				
+				const value = params.split('=')[1];
+				console.log('value : ' + value);
+				
+				fetch('')
+					.then(response => response.json())
+					.then(data => {
+						console.log(data);
+					})
+					.catch.
+			})
+		</script>
 	</head>
 	<body>
 		<h3>User1 수정</h3>
