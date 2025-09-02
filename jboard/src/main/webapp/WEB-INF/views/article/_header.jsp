@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Article</title>
+    <title>글목록</title>
     <link rel="stylesheet" href="../css/style.css"/>
 </head>
 <body>
@@ -17,3 +17,4 @@
                 <a href="../user/login.html">[로그아웃]</a>
             </p>
         </header>
+        

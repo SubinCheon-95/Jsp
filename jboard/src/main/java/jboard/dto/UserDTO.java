@@ -101,4 +101,6 @@ public class UserDTO {
 				+ email + ", hp=" + hp + ", us_role=" + us_role + ", zip=" + zip + ", addr1=" + addr1 + ", addr2="
 				+ addr2 + ", reg_ip=" + reg_ip + ", reg_date=" + reg_date + ", leave_date=" + leave_date + "]";
 	}
+
+	
 }

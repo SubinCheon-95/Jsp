@@ -25,7 +25,7 @@
                 <th>글쓴이</th>
                 <th>날짜</th>
                 <th>조회</th>
-            </tr>                    
+            </tr>
             <tr>
                 <td>1</td>
                 <td><a href="./view.html">테스트 제목입니다.[3]</a></td>
@@ -48,3 +48,13 @@
     </section>
 </main>
 <%@ include file="./_footer.jsp" %>
+
+
+
+
+
+
+
+
+
+

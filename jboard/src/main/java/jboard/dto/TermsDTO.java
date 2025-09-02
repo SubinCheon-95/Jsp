@@ -24,9 +24,11 @@ public class TermsDTO {
 	public void setPrivacy(String privacy) {
 		this.privacy = privacy;
 	}
-	
 	@Override
 	public String toString() {
 		return "TermsDTO [no=" + no + ", terms=" + terms + ", privacy=" + privacy + "]";
 	}
+	
+	
+	
 }

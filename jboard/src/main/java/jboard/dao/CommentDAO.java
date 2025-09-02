@@ -2,23 +2,24 @@ package jboard.dao;
 
 import java.util.List;
 
+import jboard.dto.ArticleDTO;
 import jboard.dto.CommentDTO;
 import jboard.util.DBHelper;
 
-public class CommentDAO extends DBHelper{
+public class CommentDAO extends DBHelper {
 	
 	private final static CommentDAO INSTANCE = new CommentDAO();
 	public static CommentDAO getInstance() {
 		return INSTANCE;
-	}
-	
+	}	
 	private CommentDAO() {}
+	
 	
 	public void insert(CommentDTO dto) {
 		
 	}
 	
-	public CommentDTO select(int ano) {
+	public CommentDTO select(int cno) {
 		return null;
 	}
 	
@@ -30,7 +31,7 @@ public class CommentDAO extends DBHelper{
 		
 	}
 	
-	public void delete(int ano) {
+	public void delete(int cno) {
 		
 	}
 }

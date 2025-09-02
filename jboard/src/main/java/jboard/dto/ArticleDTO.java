@@ -1,7 +1,7 @@
 package jboard.dto;
 
 public class ArticleDTO {
-	
+
 	private int ano;
 	private String cate;
 	private String title;
@@ -9,7 +9,7 @@ public class ArticleDTO {
 	private int comment_cnt;
 	private int file_cnt;
 	private int hit_cnt;
-	private String wirter;
+	private String writer;
 	private String reg_ip;
 	private String wdate;
 	
@@ -55,11 +55,11 @@ public class ArticleDTO {
 	public void setHit_cnt(int hit_cnt) {
 		this.hit_cnt = hit_cnt;
 	}
-	public String getWirter() {
-		return wirter;
+	public String getWriter() {
+		return writer;
 	}
-	public void setWirter(String wirter) {
-		this.wirter = wirter;
+	public void setWriter(String writer) {
+		this.writer = writer;
 	}
 	public String getReg_ip() {
 		return reg_ip;
@@ -73,11 +73,13 @@ public class ArticleDTO {
 	public void setWdate(String wdate) {
 		this.wdate = wdate;
 	}
-	
 	@Override
 	public String toString() {
 		return "ArticleDTO [ano=" + ano + ", cate=" + cate + ", title=" + title + ", content=" + content
-				+ ", comment_cnt=" + comment_cnt + ", file_cnt=" + file_cnt + ", hit_cnt=" + hit_cnt + ", wirter="
-				+ wirter + ", reg_ip=" + reg_ip + ", wdate=" + wdate + "]";
+				+ ", comment_cnt=" + comment_cnt + ", file_cnt=" + file_cnt + ", hit_cnt=" + hit_cnt + ", writer="
+				+ writer + ", reg_ip=" + reg_ip + ", wdate=" + wdate + "]";
 	}
+	
+	
+	
 }

@@ -1,7 +1,7 @@
 package jboard.dto;
 
 public class CommentDTO {
-
+	
 	private int cno;
 	private int ano;
 	private String content;
@@ -45,10 +45,12 @@ public class CommentDTO {
 	public void setWdate(String wdate) {
 		this.wdate = wdate;
 	}
-	
 	@Override
 	public String toString() {
 		return "CommentDTO [cno=" + cno + ", ano=" + ano + ", content=" + content + ", writer=" + writer + ", reg_ip="
 				+ reg_ip + ", wdate=" + wdate + "]";
 	}
+	
+	
+
 }
